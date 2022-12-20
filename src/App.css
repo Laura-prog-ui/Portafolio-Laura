@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html, body{
+    background: #F7EEE4;
+    font-family: 'Atma', cursive;
+
+}
+
+.logo{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul li a{
+    padding: 0 16px;
+    color: white;
+}
+
+.boton{
+    background: #CBACEB;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.boton2{
+  background: #aa95c59e;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.titulo2{
+    text-align: center;
+    margin-top: 5rem;
+    color: black;
+}
+
+.linea{
+    color: #aa95c58b;
+}
+
+.text{
+  color: black;
+  justify-content: space-between;
+}
