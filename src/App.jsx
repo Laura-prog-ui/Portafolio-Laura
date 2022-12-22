@@ -71,8 +71,17 @@ function App() {
       </section>
       </section>
 
+      <footer>
+        <img className='Logo2' src="../Logo.png" alt="" />
+        <p>Hecho por Laura Duarte</p>
+        <img src="../Facebook.png" alt="" />
+        <img src="../Twitter.png" alt="" />
+        <img src="../Pinterest.png" alt="" />
+        <img src="../Linkedin.png" alt="" />
+      </footer>
+
     </div>
   )
 }
 
-export default App
+export default App 
