@@ -6,13 +6,9 @@
 }
 
 html, body{
-    background: #F7EEE4;
+    background: #e9dfd3;
     font-family: 'Atma', cursive;
 
-}
-
-.logo{
-    margin: 0;
 }
 
 .header{
@@ -20,26 +16,41 @@ html, body{
     justify-content: space-between;
     padding: 16px;
 }
+
+.menu{
+    display: none;
+}
+
+.text1{
+    color: black;
+    float: center;
+    margin: 6px;
+    padding: 1px
+}
+
 ul{
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
+    font-size: 3rem;
 }
 
 ul li a{
     padding: 0 16px;
-    color: white;
+    color: black;
+    justify-content: space-between;
 }
 
 .boton{
     background: #CBACEB;
     color: #ffffff;
     border-radius: 5px;
+    font-size: 1.5rem;
 }
 
 .boton2{
-  background: #aa95c59e;
+    background: #aa95c59e;
     color: #ffffff;
     border-radius: 5px;
     margin: 10px;
@@ -47,7 +58,8 @@ ul li a{
 
 .titulo{
     text-align: center;
-    color: white;
+    color: black;
+    margin: 2rem;
 }
 
 .titulo2{
@@ -61,11 +73,43 @@ ul li a{
 }
 
 .text{
-  color: black;
-  justify-content: space-between;
+    color: black;
+    justify-content: space-between;
 }
 
 footer{
-  background-color: #aa95c5a5;
-  
+    background-color: #aa95c5a5;
+}
+
+.datos{
+    align-items: center;
+}
+
+.logros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+ /* Desktop */ 
+@media only screen and (min-width: 680px) {
+    nav{
+        display: flex;
+        align-items: center;
+    }
+
+    .menu {
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu ul {
+        display: flex;
+        list-style: none;
+    }
+    .menu li {
+        margin-left: 1rem;
+    }
+
 }

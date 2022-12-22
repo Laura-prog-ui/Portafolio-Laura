@@ -7,11 +7,9 @@ function App() {
 
   return (
     <div className="App">
-      <img src="../Banner.png" alt="" />
-
-      <img className='Logo' src="../Logo.png" alt="" />
-
-      <nav className='d-flex justify-content-around'>
+      <header>
+        <img className='Logo' src="../Logo.png" alt="" />
+        <nav className='menu'>
         <ul>
           <li><a>Inicio</a></li>
           <li><a>Servicio</a></li>
@@ -20,19 +18,27 @@ function App() {
           <li><a>Contacto</a></li>
           <button class="boton">Acceso</button>
         </ul>
-      </nav>
+        </nav>
+      </header>
+      
 
-      <header className='titulo'>
+      <section className='titulo'>
         <p>Hola</p>
         <h1>Soy Laura Duarte</h1>
         <p>Desarrolladora Front-end</p>
-      </header>
+      </section>
 
-      <section className='text'>
+      <section className='logros'>
+        <img src="../HTML.png" width={100} alt="" />
+        <img src="../CSS.png" width={100} alt="" />
+        <img src="../JS.png" width={100} alt="" />
+        <img src="../React.png" width={100} alt="" />
+      </section>
+      <section className='text1'>
         <h1>Sobre mí</h1>
         <h2>Desarrolladora Front-end</h2>
         <p>Soy Laura Duarte Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria. Ha sobrevivido no solo cinco siglos, sino también al salto a la electrónica, pero también al salto a la composición tipográfica electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de hojas de Letraset que contenían</p>
-        <img src="../Mujer.png" alt="" />
+        <img src="../Mujer.jpg" width={400} alt="" />
         <button class="boton2">Contactame</button>
         <button class="boton2">Descargar currículum</button>
       </section>
@@ -57,6 +63,7 @@ function App() {
         <h1>Nuestro Blog</h1>
         <p>Desarrolladora Front-end</p>
         <h2 class="linea">_____________________</h2>
+        
       </section>
 
       <section className='text'>
